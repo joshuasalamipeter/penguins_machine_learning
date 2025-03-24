@@ -40,7 +40,7 @@ output_pickle.close()
 
 fig, ax = plt.subplots()
 ax = sns.barplot(x=rfc.feature_importances_, y=features.columns)
-plt.title('Which features are the most importance for species prediction?')
+plt.title('Features importance for species prediction')
 plt.xlabel('Importance')
 plt.ylabel('Features')
 plt.tight_layout()

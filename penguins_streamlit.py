@@ -17,7 +17,7 @@ rf_pickle.close()
 map_pickle.close()
 
 
-with st.form("user input")
+with st.form("user input"):
     island = st.selectbox('Penguin Island', options = ['Biscoe', 'Dream', 'Torgerson'])
     sex = st.selectbox('Sex', options = ['Female', 'Male'])
     bill_length = st.number_input('Bill Lenghth (mm)', min_value=0)

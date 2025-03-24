@@ -22,7 +22,6 @@ The dataset used is `penguins.csv`, which contains measurements of penguins from
 ## Requirements
 
 To run this project locally, install the following Python libraries with the specified versions:
-- `altair==5.5.0`
 - `matplotlib==3.10.1`
 - `pandas==2.2.3`
 - `scikit-learn==1.6.1`
